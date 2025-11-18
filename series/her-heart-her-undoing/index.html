@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Her Heart, Her Undoing</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <h1>Her Heart, Her Undoing</h1>
+  <p><strong>Author:</strong> Anonymous</p>
+
+  <p>
+    A romantic, dramatic, and emotional journey following a heart torn between past wounds and new beginnings.
+  </p>
+
+  <h2>Chapters</h2>
+  <ul id="chapterList">Loading…</ul>
+
+<script>
+fetch('./chapters/list.json')
+  .then(r => r.json())
+  .then(chapters => {
+    const container = document.getElementById('chapterList');
+    container.innerHTML = "";
+    chapters.forEach(ch => {
+      const li = document.createElement('li');
+      li.innerHTML = `<a href="./chapters/${ch.file}">${ch.title}</a>`;
+      container.appendChild(li);
+    });
+  });
+</script>
+</body>
+</html>
