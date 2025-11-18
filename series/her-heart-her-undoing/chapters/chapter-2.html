@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter 2 – Fault Lines</title>
+  <link rel="stylesheet" href="/MyNovel/assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+  <a href="/MyNovel/series/her-heart-her-undoing/">← Back to Series</a>
+  <h1>Chapter 2 – Fault Lines</h1>
+
+  <div id="content">Loading…</div>
+
+<script>
+fetch('chapter-2.md')
+  .then(r => r.text())
+  .then(md => {
+    document.getElementById('content').innerHTML = marked.parse(md);
+  });
+</script>
+
+<nav>
+  <a href="./chapter-1.html">← Previous</a>
+  <span></span>
+</nav>
+
+</body>
+</html>
