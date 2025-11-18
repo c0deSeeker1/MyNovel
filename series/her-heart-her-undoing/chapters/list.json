@@ -1,4 +1,94 @@
 [
-  { "file": "chapter-1.html", "title": "Chapter 1 – The First Crack" },
-  { "file": "chapter-2.html", "title": "Chapter 2 – Fault Lines" }
+  {
+    "file": "chapter-1.html",
+    "title": "Chapter 1 \u2013 The First Crack"
+  },
+  {
+    "file": "chapter-2.html",
+    "title": "Chapter 2 \u2013 Fault Lines"
+  },
+  {
+    "file": "chapter-3.html",
+    "title": "Chapter 3 \u2013 Echoes"
+  },
+  {
+    "file": "chapter-4.html",
+    "title": "Chapter 4 \u2013 Shadows"
+  },
+  {
+    "file": "chapter-5.html",
+    "title": "Chapter 5 \u2013 Flares"
+  },
+  {
+    "file": "chapter-6.html",
+    "title": "Chapter 6 \u2013 Crossroads"
+  },
+  {
+    "file": "chapter-7.html",
+    "title": "Chapter 7 \u2013 Unraveling"
+  },
+  {
+    "file": "chapter-8.html",
+    "title": "Chapter 8 \u2013 Reckoning"
+  },
+  {
+    "file": "chapter-9.html",
+    "title": "Chapter 9 \u2013 Aftermath"
+  },
+  {
+    "file": "chapter-10.html",
+    "title": "Chapter 10 \u2013 Tremors"
+  },
+  {
+    "file": "chapter-11.html",
+    "title": "Chapter 11 \u2013 Glimmers"
+  },
+  {
+    "file": "chapter-12.html",
+    "title": "Chapter 12 \u2013 Threshold"
+  },
+  {
+    "file": "chapter-13.html",
+    "title": "Chapter 13 \u2013 Confessions"
+  },
+  {
+    "file": "chapter-14.html",
+    "title": "Chapter 14 \u2013 Distance"
+  },
+  {
+    "file": "chapter-15.html",
+    "title": "Chapter 15 \u2013 Resolve"
+  },
+  {
+    "file": "chapter-16.html",
+    "title": "Chapter 16 \u2013 Collision"
+  },
+  {
+    "file": "chapter-17.html",
+    "title": "Chapter 17 \u2013 Respite"
+  },
+  {
+    "file": "chapter-18.html",
+    "title": "Chapter 18 \u2013 Unspoken"
+  },
+  {
+    "file": "chapter-19.html",
+    "title": "Chapter 19 \u2013 Breaking Point"
+  },
+  {
+    "file": "chapter-20.html",
+    "title": "Chapter 20 \u2013 After the Fall"
+  },
+  {
+    "file": "chapter-21.html",
+    "title": "Chapter 21 \u2013 Mending"
+  },
+  {
+    "file": "chapter-22.html",
+    "title": "Chapter 22 \u2013 Return"
+  },
+  {
+    "file": "chapter-23.html",
+    "title": "Chapter 23 \u2013 Dawn"
+  }
 ]
