@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter 1</title>
+  <link rel="stylesheet" href="/MyNovel/assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
 
+  <a href="/MyNovel/Mr Melendez, Your Wife Wants Divorce Long ago/">← Back to Series</a>
+  <h1>Chapter 1</h1>
+
+  <div id="content">Loading…</div>
+
+<script>
+fetch('chapter-1.md')
+  .then(r => r.text())
+  .then(md => {
+    document.getElementById('content').innerHTML = marked.parse(md);
+  });
+</script>
+
+<nav>
+  <span></span>
+  <a href="./chapter-2">Next →</a>
+</nav>
+
+</body>
+</html>
